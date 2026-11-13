@@ -11,3 +11,6 @@ venv/
 data/*.log
 
 minidb/app_backup.py
+
+build/
+dist/
