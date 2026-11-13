@@ -1,0 +1,13 @@
+﻿__pycache__/
+*.py[cod]
+*.bak
+*.egg-info/
+.venv/
+venv/
+.env
+.pytest_cache/
+.streamlit/secrets.toml
+
+data/*.log
+
+minidb/app_backup.py
