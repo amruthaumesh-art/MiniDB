@@ -8,6 +8,28 @@ MiniDB is an educational database management system that implements its own SQL-
 
 It demonstrates fundamental database internals, including custom query parsing, execution, persistent storage, indexing, query planning, transaction management, recovery, concurrency control, and extensible plugins.
 
+ ## Installation from PyPI
+
+MiniDB is publicly available on the Python Package Index (PyPI).
+
+Install it using:
+
+```bash
+pip install minidb-engine
+```
+
+Import the database engine:
+
+```python
+from minidb import Database
+
+db = Database("students.log")
+```
+
+**PyPI:** https://pypi.org/project/minidb-engine/
+
+**Version:** 0.1.0
+
 ## 2. Project Objectives
 
 - Build a custom tokenizer and query parser.
